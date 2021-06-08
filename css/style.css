@@ -408,6 +408,9 @@ input[name="tab_item"] {
   margin-bottom: 20px;
   position: relative;
 }
+.portfolio-box:hover {
+  opacity: 0.7;
+}
 
 @media screen and (min-width: 961px) {
   .portfolio-box {
@@ -431,6 +434,37 @@ input[name="tab_item"] {
   .portfolio-box {
     width: 100%;
   }
+}
+
+.portfolio-box.kataduke {
+  background-image: url(../img/Kataduke-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-box.hanseee {
+  background-image: url(../img/Hanseee-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-box.myself {
+  background-image: url(../img/MYSELF-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-box.nayamitter {
+  background-image: url(../img/nayamitter-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio-box.pysite {
+  background-image: url(../img/Pysite-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .portfolio-box .framework {
