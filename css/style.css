@@ -466,6 +466,12 @@ input[name="tab_item"] {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.portfolio-box.tomodachi {
+  background-image: url(../img/Tomodachi-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .portfolio-box .framework {
   display: inline-block;
