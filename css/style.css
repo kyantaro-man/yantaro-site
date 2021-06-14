@@ -510,6 +510,27 @@ input[name="tab_item"] {
   font-size: 18px;
 }
 
+.portfolio-box .recommend {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  text-align: center;
+  font-size: small;
+  color: #fff;
+  line-height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.portfolio-box .recommend.gold {
+  background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
+}
+.portfolio-box .recommend.silver {
+  background: linear-gradient(45deg, #757575 0%, #9E9E9E 45%, #E8E8E8 70%, #9E9E9E 85%, #757575 90% 100%);
+}
+
 /* Skillページ */
 .skill-section {
   padding: 80px 0 60px;
